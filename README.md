@@ -20,7 +20,7 @@ __nginx.conf__ содержит следующие основные директ
 
 ## Пример
 
-```json
+```javascript
 server {
     location / {
         proxy_pass http://localhost:8080/;
@@ -28,7 +28,8 @@ server {
     location ~ \.(gif|jpg|png)$ {
         root /data/images;
     }
-}```
+}
+```
 
 ## Подробнее
 
