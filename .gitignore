@@ -1,1 +1,2 @@
-/tmp/
+# ignore /tmp dir and files in /tmp dir
+tmp/
